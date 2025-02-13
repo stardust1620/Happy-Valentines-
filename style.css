@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffe6e6;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #ff3366;
+}
+
+.yes-button, .no-button {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.yes-button {
+    background-color: green;
+    color: white;
+}
+
+.no-button {
+    background-color: red;
+    color: white;
+}
+
+.message {
+    font-size: 1.2rem;
+    color: #ff3366;
+    font-weight: bold;
+}
